@@ -17,7 +17,7 @@ const app = express();
 
 app.use(
     cors({
-    origin: "https://leetlab.netlify.app/",
+    origin: "https://leetbackend.onrender.com/",
     credentials: true,
 }))
 
